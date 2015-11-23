@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<head>
+  <title></title>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src="elasticBar.js"></script>
+
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/material.css" rel="stylesheet">
+  <link href="essential.css" rel="stylesheet" type="text/css" />
+
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav id="navigation" class="navbar navbar-static-top">
+    <nav class="inside-nav">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group add-on">
+              <span class="mdi-action-search"></span>
+              <input type="text" class="form-control general" placeholder="Search" style="height:50px">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <button class="btn-lg btn-link">
+              <span class="mdi-social-notifications"></span>
+            </button>
+            <span class="badge badge-notify">3</span>
+            <button class="btn-lg btn-link">
+              <span class="mdi-communication-forum"></span>
+            </button>
+            <span class="badge badge-notify">3</span>
+            <li class="dropdown">
+              <button href="#" class="btn-lg btn-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="mdi-social-person"></span>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </nav>
+  <!--
+  <nav>
+
+    <ul id="navigation">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Photos</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>-->
+  <div id="nextElementFix"></div>
+  <!-- fixed position fix  -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1431540015161-0bf868a2d407?dpr=2&fit=crop&fm=jpg&h=775&ixjsv=2.0.0&ixlib=rb-0.3.5&q=50&w=1450" alt="img">
+          <button type="button" class="btn btn-fab btn-raised btn-material-red">
+            <i class="mdi-action-favorite"></i>
+          </button>
+          <div class="caption">
+            <p>Thumbnail label</p>
+            <h3>700€</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/uploads/1412739483594d16c8046/a9a53469?dpr=2&fit=crop&fm=jpg&h=775&ixjsv=2.0.0&ixlib=rb-0.3.5&q=50&w=1450" alt="img">
+          <button type="button" class="btn btn-fab btn-raised btn-material-red">
+            <i class="mdi-action-favorite"></i>
+          </button>
+          <div class="caption">
+            <p>Thumbnail label</p>
+            <h3>700€</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1424298397478-4bd87a6a0f0c?dpr=2&fit=crop&fm=jpg&h=775&ixjsv=2.0.0&ixlib=rb-0.3.5&q=50&w=1450" alt="img">
+          <button type="button" class="btn btn-fab btn-raised btn-material-red">
+            <i class="mdi-action-favorite"></i>
+          </button>
+          <div class="caption">
+            <p>Thumbnail label</p>
+            <h3>700€</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://placehold.it/550x350" alt="img">
+          <button type="button" class="btn btn-fab btn-raised btn-material-red">
+            <i class="mdi-action-favorite"></i>
+          </button>
+          <div class="caption">
+            <p>Thumbnail label</p>
+            <h3>700€</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1424298397478-4bd87a6a0f0c?dpr=2&fit=crop&fm=jpg&h=775&ixjsv=2.0.0&ixlib=rb-0.3.5&q=50&w=1450" alt="img">
+          <button type="button" class="btn btn-fab btn-raised btn-material-red">
+            <i class="mdi-action-favorite"></i>
+          </button>
+          <div class="caption">
+            <p>Thumbnail label</p>
+            <h3>700€</h3>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
